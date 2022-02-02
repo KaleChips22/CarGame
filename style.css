@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.score-box {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 25pt;
+  left: 5px;
+  user-select: none;
+}
+
+.bounce {
+  animation: bounce 500ms linear 1;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0%)
+  }
+  50% {
+    transform: scale(50%)
+  }
+  100% {
+    transform: scale(0%)
+  }
+}
